@@ -1,0 +1,5 @@
+nympy
+opencv-python
+mediapipe
+tensorflow
+pyttsx3
