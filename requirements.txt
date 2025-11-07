@@ -1,5 +1,6 @@
-nympy
+numpy
 opencv-python
 mediapipe
 tensorflow
 pyttsx3
+scikit-learn
