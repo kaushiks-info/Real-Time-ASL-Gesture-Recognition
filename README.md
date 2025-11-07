@@ -149,10 +149,11 @@ How It Works
 
 ---
 
-License
+LICENSE
 -
 >This project is licensed under the MIT License.
 
 
 ---
+
 
