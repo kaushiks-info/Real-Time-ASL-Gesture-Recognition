@@ -16,9 +16,6 @@ engine.setProperty('rate', 150)
 #   2. src/train_model.py       → to train and create asl_model.h5
 # This ensures higher accuracy for your own camera & lighting setup.
 # -------------------------------------------------------------
-model = load_model('asl_model.h5')   # or whatever path you have
-...
-
 
 model = load_model('asl_model.h5')
 class_names = np.load('class_names.npy', allow_pickle=True)
