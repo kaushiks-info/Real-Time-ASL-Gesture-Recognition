@@ -96,7 +96,7 @@ cd Real-Time-ASL-Gesture-Recognition
 
    ```python src/asl_recognition.py```
 
-4. (Optional) Collect your own data and train:
+4. Collect your own data and train:
 
 
 
@@ -104,6 +104,34 @@ cd Real-Time-ASL-Gesture-Recognition
    
    ```python src/train_model.py```
 
+> ⚠️ **Important Note – Model File (`asl_model.h5`)**
+>
+> The trained model file (`asl_model.h5`) is **not included** in this repository.
+>
+> This is intentional — because gesture recognition accuracy depends heavily on your own hand shape, lighting, and camera setup.  
+> Instead of using a pre-trained model, you'll get **better accuracy** by quickly generating your own dataset and training locally.
+>
+> The process is lightweight and takes only a few minutes:
+>
+> 1. **Collect landmark data:**  
+>    ```bash
+>    python src/data_collection.py
+>    ```
+>    Follow the on-screen instructions to record a few samples for each gesture.
+>
+> 2. **Train your model:**  
+>    ```bash
+>    python src/train_model.py
+>    ```
+>    This will automatically create `models/asl_model.h5` and `models/class_names.npy`.
+>
+> 3. **Run real-time recognition:**  
+>    ```bash
+>    python src/asl_recognition.py
+>    ```
+>
+> 🧠 *Why this matters:*  
+> Training on your own landmarks ensures **higher accuracy** and keeps the repository small and flexible for different users and setups.
 
 ---
 
@@ -127,3 +155,4 @@ License
 
 
 ---
+
