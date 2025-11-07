@@ -8,6 +8,18 @@ from tensorflow.keras.models import load_model
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)
 
+# -------------------------------------------------------------
+# NOTE:
+# The trained model (asl_model.h5) is *not included* in the repo.
+# Please generate it by running:
+#   1. src/data_collection.py  → to collect hand landmark data
+#   2. src/train_model.py       → to train and create asl_model.h5
+# This ensures higher accuracy for your own camera & lighting setup.
+# -------------------------------------------------------------
+model = load_model('asl_model.h5')   # or whatever path you have
+...
+
+
 model = load_model('asl_model.h5')
 class_names = np.load('class_names.npy', allow_pickle=True)
 
