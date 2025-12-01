@@ -7,7 +7,7 @@ A deep learning-based system to recognize American Sign Language (ASL) gestures 
 
 About the Project
 -
-This project was created as part of a final year major project with the goal of making communication more accessible. It uses real-time webcam input to detect and identify ASL gestures, converting them to text and speech.
+This project was created as part of a final year major project with the goal of making communication more accessible. It uses real-time webcam input to detect and identify ASL gestures, converting them into text and speech.
 
 
 Instead of working with image datasets, this system uses hand landmark data for a lightweight and accurate prediction model.
@@ -52,14 +52,16 @@ Folder Structure
 -
 ```
 Real-Time-ASL-Gesture-Recognition/
-├── data/               # Landmark training data (.npy)
-├── models/             # Trained model (.h5), class names
-├── src/                # All project scripts
-├── demo/               # Screenshots
+├── data/                # Landmark training data (.npy) - created after running data_collection.py
+├── models/              # Trained model (asl_model.h5) & class_names.npy - created after training
+│   └── metadata.json    # Model input configuration (included)
+├── src/                 # All project scripts (data collection, training, inference)
+├── demo/                # Screenshots / previews
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 ```
 ---
 
@@ -155,5 +157,6 @@ LICENSE
 
 
 ---
+
 
 
