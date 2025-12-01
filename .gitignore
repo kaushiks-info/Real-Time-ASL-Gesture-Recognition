@@ -1,8 +1,23 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
-*.h5
-*.npy
-.env
-asl_env/
+
+# Virtual environments
+venv/
+env/
+
+# Data and model files (do not commit large files)
+data/
+models/asl_model.h5
+models/class_names.npy
+demo_models/*.h5
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
