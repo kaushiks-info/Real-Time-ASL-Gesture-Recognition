@@ -73,7 +73,7 @@ Here are some screenshots of the real-time ASL gesture recognition in action:
 
 <img src="https://github.com/user-attachments/assets/5582e240-6585-4032-9ffd-f960d2aef9af" alt="ASL Output Screenshot" width="500">
 
-<img src="https://github.com/user-attachments/assets/c3397ff7-38fc-4db2-9a2f-f3f5fa60931d" alt="ASL Demo Screenshot" width="300">
+<img src="https://github.com/user-attachments/assets/726b8d8d-fa00-459f-b992-eb113515ecc2" alt="ASL Demo Screenshot" width="350">
 
 ---
 
@@ -157,6 +157,7 @@ LICENSE
 
 
 ---
+
 
 
 
